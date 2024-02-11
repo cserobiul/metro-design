@@ -1,0 +1,106 @@
+/* Custom CSS */
+body{
+    font-family: "Montserrat",sans-serif
+}
+.bg-dark{background-color: black !important;}
+.header-top {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.carousel-caption {
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.bg-danger {
+    background-color: red !important; /* Use !important to override Bootstrap's default background color */
+    width: 100%; /* Make the div full-width */
+}
+
+@media (min-width: 768px) {
+    .call-now-btn {
+        display: none;
+    }
+
+    .btn-mobile-lg {
+        font-size: 1.25rem; /* Larger button size on desktop */
+        padding: 0.5rem 1.5rem; /* Larger button padding on desktop */
+    }
+    .sliderH1{font-size: 70px;}
+    .sliderH2{font-size: 50px;}
+    .sliderCall{background-color: red; padding: 15px 30px;}
+    .sliderQuote{background-color: red; padding: 15px 30px;}
+    .enquireNow{ background-color: red; border: none}
+}
+@media (max-width: 767px) {
+    .carousel-caption {
+        opacity: 1; /* Make the caption fully visible */
+        top: 30%;
+    }
+
+    .sliderH1{font-size: 20px !important; }
+    .sliderH2{font-size: 20px !important;}
+    .sliderH3{font-size: 15px !important;}
+    .sliderCall{width: 50%; background-color: red; font-size: 12px; margin-left:-10px}
+    .sliderQuote{width: 50%; background-color: red; font-size: 12px; margin-right: -10px;}
+
+    .textBlue{color: #426b9f; font-size: 20px !important; font-weight: bold; padding-top: 10px;}
+    .textRed{color: #ab0000; font-size: 20px !important; font-weight: bold;}
+
+    .enquireNow{font-size: 18px; margin-left: -35px; background-color: red; border: none; padding-top: 15px; height: 60px;}
+
+    .navbar-nav .nav-item.active .nav-link{background-color: black !important;}
+
+}
+
+.navbar-nav .nav-item {
+    padding: 5px 20px; /* Add padding to navbar items */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white; /* Font color white */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    background-color: red; /* Hover background color red */
+}
+.textBlue{color: #426b9f; font-size: 35px; font-weight: bold;}
+.textRed{color: #ab0000; font-size: 35px; font-weight: bold;}
+.textPara{color: white; font-family: "Montserrat",sans-serif}
+
+.textSeparator{
+    border-top-width: 6px;
+    border-top-style: solid;
+    border-top-color: #ffffff;
+    max-width: 45%;
+    margin: 0 0 0 0;
+    padding-bottom:10px;
+}
+
+footer{padding-top: 70px;}
+
+.footer-widget {
+    color: red; /* Widget title color */
+}
+
+.footer-widget ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-widget ul li {
+    margin-bottom: 5px; /* Add some spacing between list items */
+}
+.footer-widget ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat",sans-serif
+}
+
+.callFixedBtn{padding:12px 0; font-size: 20px}
+
+.copyright {
+    padding: 10px 0; /* Add padding to the copyright div */
+    text-align: center; /* Center-align the text */
+}
